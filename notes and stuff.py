@@ -15,3 +15,7 @@ print(result + ".")
 #      print(item, end=", ")
 #    else:
 #      print(item, end=".")
+
+
+
+https://pastebin.com/M55PDSgJ
