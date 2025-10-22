@@ -29,3 +29,10 @@ print(" ".join(inventory))
 
 
 
+# def calculated_water(water_for_one:float, days:int, participants:int) ->float:
+#     total_water_for_journey = (water_for_one * days) * participants
+#     return total_water_for_journey
+#
+# def calculated_food(food_for_one:float, days:int, participants, int) ->float:
+#     total_food_for_journey = (food_for_one * days) * participants
+#     return total_food_for_journey
