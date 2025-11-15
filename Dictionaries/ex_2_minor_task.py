@@ -1,0 +1,13 @@
+resources = {}
+
+current_resource = input()
+
+while current_resource != "stop":
+    current_quantity = int(input())
+    if current_resource not in resources.keys():
+        resources[current_resource] = 0
+    resources[current_resource] += current_quantity
+    current_resource = input()
+
+for resource, quantiy in resources.items():
+    print(f"{resource} -> {quantiy}")

@@ -1,5 +1,5 @@
 def check_length(some_password:str)-> bool:
-    return 10 <= len(some_password)
+    return 8 <= len(some_password) <= 64
 
 def check_specials(some_password:str)-> bool:
     for symbol in some_password:
